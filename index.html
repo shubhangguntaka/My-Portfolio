@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Campatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhang's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54f53af35a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>S</span>hubhang.</h1>
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Shubhang</span><br>Guntaka from INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hey I am Shubhang, currently an undergraduate at CMRIT, Hyderabad.
+                        I am a Tech enthusiast. Technology excites me in countless ways, as it
+                        represents an ever-evolving realm of innovation and endless
+                        possibilities. I like learning things and exploring different technologies. As
+                        of now I am building my skillset and looking forward to contribute in
+                        building technologies that helps the mankind. Apart from tech, I love
+                        playing games.
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <!-- <li><span>UI/UX</span><br>Designing Web/App Interface</li> -->
+                            <li><span>App Development</span><br>Building Android/iOS APPs</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Photography</span><br>Photos & Video</li>
+                        </ul>
+                    </div><div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>Freasher</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br>CMR Institute Of Technology</li>
+                            <li><span>2020-2022</span><br>Aditya Junior College</li>
+                            <li><span>2020</span><br>Alphores High School</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <img src="images/user.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <!-- <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, dolorem, laborum ducimus perspiciatis eveniet repudiandae harum aperiam, nostrum quam voluptatem alias consectetur est labore amet quaerat praesentium tenetur delectus aliquid.</p>
+                    <a href="#">learn more</a>
+                </div> -->
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Design</h2><br><br><br>
+                    <p>Designing APP user interface by using Android Studio/Flutter/Flask</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Design</h2><br><br><br>
+                    <p>Designing Web Page user interface by using CSS</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-icons"></i>
+                    <h2>Photography</h2><br><br><br>
+                    <p>I love to take photos</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Sudoku Solver.png">
+                    <div class="layer">
+                        <h3>Sudoku Solver</h3>
+                        <p>Developed a Sudoku Solver app using Android Studio during my second year of
+                            B.Tech. The app featured a backtracking algorithm to solve puzzles in real-time,
+                            with a user-friendly interface designed in XML. I implemented puzzle validation,
+                            error handling, and optimized the app for performance on Android devices.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Health Care Chatbot.png">
+                    <div class="layer">
+                        <h3>Health Care Chatbot</h3>
+                        <p>Developed a Health Care Chatbot using NodeJS, HTML, and CSS to assist users with
+                            medical inquiries through automated responses. The chatbot processes user inputs
+                            in real-time, providing healthcare advice based on predefined data. This project
+                            enhanced my skills in web development, backend integration, and responsive UI
+                            design.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Photography</h3>
+                        <p>This is my Photography Portfolio</p>
+                        <a href="http://vsco.co/guntakashubhang"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="eMail" placeholder="Your eMail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="contact-right">
+                    <p><i class="fa-regular fa-envelope"></i>guntakashubhang@gmail.com</p>
+                    <p><i class="fa-regular fa-envelope"></i>22r01a7331@cmrithyderabad.edu.in</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9490654019</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shubhang-guntaka?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/shubhangguntaka"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+919490654019&text=Hey there! I saw your Portfolio Website"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100075299341930"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/shubhangguntaka?igsh=emNodWF3cHZiazM4"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/ShubhangGuntaka?t=GQpO_w2ZZDt3f7b4cGBszA&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.threads.net/@shubhangguntaka?xmt=AQGzn3QbFeSsWc8gIl8JaVP1g87I6GKll6lFak7SD46U-ZI"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://www.snapchat.com/add/shubhang05g?share_id=JPZxF7L3INw&locale=en-US"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://t.me/+919490654019"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="files/22R01A7331_Shubhang_Guntaka.pdf" download class="btn btn2">Download RESUME</a>
+                    <a href="files/22R01A7331_Shubhang_Guntaka.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Shubhang. Made with by Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxckPHT2nNqDhQC2QXgKJ7Jaz9cENWkskzVgqhfqWGUiVjJZY8dI9KxkKYDakmlVM8_pg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
